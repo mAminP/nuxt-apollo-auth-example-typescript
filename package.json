@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-apollo-auth-example-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate-types": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "core-js": "^3.15.1",
+    "graphql-tag": "^2.12.5",
+    "nuxt": "^2.15.7",
+    "nuxt-apollo-auth": "0.0.172-dev",
+    "nuxt-property-decorator": "^2.9.1",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.21.5",
+    "@graphql-codegen/typescript": "^1.22.3",
+    "@graphql-codegen/typescript-graphql-files-modules": "^1.18.1",
+    "@graphql-codegen/typescript-operations": "^1.18.2",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "apollo-server": "^2.25.2",
+    "vue-apollo": "^3.0.7"
+  }
+}
